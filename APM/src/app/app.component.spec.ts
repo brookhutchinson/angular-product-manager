@@ -1,5 +1,5 @@
 // angular
-import { TestBed, ComponentFixture } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 // components
 import { AppComponent } from './app.component';
