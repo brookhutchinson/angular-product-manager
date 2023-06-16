@@ -1,5 +1,5 @@
 {
-  "name": "apm",
+  "name": "angular-product-manager",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
