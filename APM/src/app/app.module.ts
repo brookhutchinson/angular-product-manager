@@ -1,6 +1,7 @@
 // angular modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 // feature modules
 import { HomeModule } from './home/home.module';
@@ -14,7 +15,7 @@ import { AppComponent } from './app.component';
   imports: [
     // angular modules
     BrowserModule,
-
+    HttpClientModule,
     // feature modules
     HomeModule,
     ProductModule
