@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.scss' ]
 })
 export class AppComponent {
-  title = 'Angular Product Manager';
+  pageTitle = 'Angular Product Manager';
 }
