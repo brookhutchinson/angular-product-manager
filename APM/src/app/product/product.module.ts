@@ -5,14 +5,20 @@ import { CommonModule } from '@angular/common';
 // shared modules
 import { SharedModule } from '../shared/shared.module';
 
+// components
+import { ProductListComponent } from './components/product-list/product-list.component';
+
 @NgModule({
-  // mdoules
+  // modules
   imports: [
     // angular modules
     CommonModule,
     // shared modules
     SharedModule
   ],
-  declarations: []
+  declarations: [
+    // components
+    ProductListComponent
+  ]
 })
 export class ProductModule {}
